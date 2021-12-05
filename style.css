@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Start Body */
+body {
+  background-color: lightblue;
+  padding: 0px;
+  font-family: Calabri;
+}
+/* End Body */
+
+/* Start Header */
+header {
+  padding: 0%;
+  background-color: lightblue;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 30spx;
+  color: navy;
+  margin: 0;
+  display: inline;
+}
+
+header nav {
+  float: right;
+  margin: 0;
+}
+
+/* Start Hero */
+
+/* Start Contact Me */
+#contact-me {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact-me h2 {
+  flex: 25%;
+}
+
+#contact-me p {
+  flex: 75%;
+}
