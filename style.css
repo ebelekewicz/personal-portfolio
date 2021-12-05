@@ -58,6 +58,19 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+#about-me h2 {
+  flex: 25%;
+}
+
+#my-work {
+  display: flex;
+  flex-direction: row;
+}
+
+#my-work h2 {
+  flex: 25%;
+}
 /* END Body */
 
 /* Start Contact Me */
