@@ -4,24 +4,16 @@
   box-sizing: border-box;
 }
 
-/* Start Body */
-body {
-  background-color: lightblue;
-  padding: 0px;
-  font-family: Calabri;
-}
-/* End Body */
-
 /* Start Header */
 header {
   padding: 0%;
-  background-color: lightblue;
+  background-color: slategray;
 }
 
 header h1 {
   font-weight: bold;
-  font-size: 30spx;
-  color: navy;
+  font-size: 25spx;
+  color: darkgreen;
   margin: 0;
   display: inline;
 }
@@ -30,8 +22,41 @@ header nav {
   float: right;
   margin: 0;
 }
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 0 10px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+/* END Header */
 
 /* Start Hero */
+.hero {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero img {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+}
+
+/* Start Body */
+body {
+  background-color: lavender;
+  padding: 0px;
+  font-family: Calabri;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: row;
+}
+/* END Body */
 
 /* Start Contact Me */
 #contact-me {
@@ -46,3 +71,17 @@ header nav {
 #contact-me p {
   flex: 75%;
 }
+
+#contact-me nav {
+  float: right;
+  margin: 0;
+}
+#contact-me nav ul li {
+  display: inline;
+}
+#contact-me nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+/* END Contact Me */
